@@ -10,8 +10,8 @@ const Footer = () => {
                 <h1 className="text-center font-bold text-white text-4xl md:text-5xl lg:text-6xl drop-shadow-[2px_2px_8px_rgba(0,0,0,1)] tracking-wide">
                     Ready to take your digital experience to next level?
                 </h1>
-                <p className="text-white-200 md:mt-10 my-5 text-center">Reach out to me and let&apos;s discuss how I can help you with my skills.</p>
-                <a href="mayeedmuhit@gmail.com">
+                <p className="text-white md:mt-10 my-5 text-center">Reach out to me and let&apos;s discuss how I can help you with my skills.</p>
+                <a href="mailto:mayeedmuhit@gmail.com">
                     <Magicbutton title="Let's get in touch" icon={<FaLocationArrow />} position="right" />
                 </a>
             </div>
