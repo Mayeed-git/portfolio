@@ -82,6 +82,8 @@ export const MovingBorder = ({
     ry?: string;
     [key: string]: any;
 }) => {
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-expect-error
     const pathRef = useRef<any>();
     const progress = useMotionValue<number>(0);
 
